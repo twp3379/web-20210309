@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- hteml>haed>style^body -->
+<hteml>
+    <haed>
+        <style>
+            .note > h1 {
+                color: red;
+            }
+
+            /* 자손 선택자 : 클래스가 note인 요소의 자손이 p요소 */
+            .note p {
+                text-decoration: underline;
+            }
+
+        </style>
+    </haed>
+    <body>
+        <!-- .note>.error>h1>lorem3^p>lorem -->
+        <div class="note">
+            <div class="error">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus reprehenderit quibusdam error repudiandae eveniet, minima quis itaque doloremque molestias optio eum sed ab atque distinctio consequatur magni pariatur exercitationem.</p>
+            </div>
+        </div>
+        <!-- .note>h1>lorem3^p>lorem -->
+        <div class="note">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, atque dicta. Tempore ut iusto libero illo quasi dolorum architecto, officiis possimus nostrum consequatur distinctio asperiores, adipisci modi dicta? Omnis, ad?</p>
+        </div>
+    </body>
+</hteml>
