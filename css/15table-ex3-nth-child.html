@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p:nth-child(1) {
+            background-color: blue;
+        }
+        p:nth-child(2) {
+            background-color: green;
+        }
+        p:nth-child(odd) {
+            text-decoration: underline;
+        }
+        p:nth-child(even) {
+            font-weight: bold;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            height: 30px;
+        }
+        tr:nth-child(even) {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- div>p*5>lorem -->
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, ut voluptate ullam, consequuntur possimus aut odio velit tenetur perferendis laboriosam nobis facere iure reprehenderit eaque deserunt harum nisi voluptates veniam!</p>
+        <p>Assumenda praesentium maxime a error officia voluptate, asperiores cum voluptatem quis repellat impedit voluptatum ducimus ab deserunt dolorem aperiam est perspiciatis, fuga accusantium? Asperiores nulla veniam quisquam nihil quae quibusdam!</p>
+        <p>Minima ipsum exercitationem architecto quidem nam aperiam obcaecati nesciunt animi doloremque? Optio repudiandae quod, adipisci totam ducimus voluptates, distinctio dignissimos quis, earum ullam rerum eum modi id quos possimus! Rem.</p>
+        <p>Molestiae voluptatem eius ad. Fugit commodi aut et! Itaque cupiditate iure molestias. Ut reiciendis voluptas incidunt laudantium maiores recusandae vero quos facere cumque sint aliquam molestias culpa quia, laboriosam magni.</p>
+        <p>Sunt repellat dolorem nemo ipsa explicabo omnis quidem pariatur reprehenderit et cumque maiores commodi consequuntur eveniet autem sit odit rerum ipsam rem, esse deserunt! Odio facilis assumenda enim doloremque molestiae!</p>
+    </div>
+
+<!-- table>tr>th*3>lorem1^^tr*4>td*3>lorem1 -->
+<table>
+    <tr>
+        <th>Lorem.</th>
+        <th>Accusantium!</th>
+        <th>Rem?</th>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Molestiae.</td>
+        <td>Repudiandae.</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Totam?</td>
+        <td>Nam.</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Tempore!</td>
+        <td>Neque.</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Nulla.</td>
+        <td>Modi.</td>
+    </tr>
+</table>
+</body>
+
+</html>
