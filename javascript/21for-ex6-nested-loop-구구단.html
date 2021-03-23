@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div id="text"></div>
+    <script>
+      var txt = ""
+      for (var i = 2; i <= 9; i++) {
+          for (var j = 1; j <= 9; j++)
+          txt += i + " X " + j + " = " + (i * j) + "<br>"
+      } document.getElementById("text").innerHTML = txt;
+    </script>
+</body>
+
+</html>

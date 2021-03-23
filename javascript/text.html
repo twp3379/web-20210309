@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    </style>
+</head>
+
+<body>
+<input type="text" placeholder=" 단을 입력">
+<button onclick="gugudan()">출력</button>
+<div id = "DD"></div>
+<script>
+function gugudan() {
+    var dan = document.querySelector("input").value;
+    dan = Number(dan);
+    var txt = "";
+    for (i = 1; i <= 9; i++) {
+        txt += dan + " X " +  i  + " = " + (dan * i) + "<br>"
+    }
+    document.getElementById("DD").innerHTML = txt;
+
+    
+}
+
+</script>
+</body>
+
+</html>
